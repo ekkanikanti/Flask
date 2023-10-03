@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1>Home</h1>
+{% endblock %}
+
+{% block body %}
+<p>Enter an integer to find out if it is even or odd</p>
+<p>Number</p>
+<div class="form">
+    <form action="C:/Users/ekani/OneDrive/Desktop/Documents/ITSC3155/Flask/templates/calculate.html" method="POST">
+        <input type="text" name="content" id="content">
+        <input type="submit" value="Calculate Number">
+    </form>
+</div>
+{% endblock %}
